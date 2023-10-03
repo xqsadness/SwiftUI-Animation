@@ -14,6 +14,7 @@
 		DDBB89A72ACA6E5B00171024 /* AnimationsOnCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBB89A62ACA6E5B00171024 /* AnimationsOnCards.swift */; };
 		DDBB89AA2ACA796B00171024 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBB89A92ACA796B00171024 /* SideMenuView.swift */; };
 		DDBB89AC2ACAA0A000171024 /* TabViewV.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBB89AB2ACAA0A000171024 /* TabViewV.swift */; };
+		DDFCD6AB2ACBA3A0003FAA5D /* TabbarAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFCD6AA2ACBA3A0003FAA5D /* TabbarAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		DDBB89A62ACA6E5B00171024 /* AnimationsOnCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsOnCards.swift; sourceTree = "<group>"; };
 		DDBB89A92ACA796B00171024 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
 		DDBB89AB2ACAA0A000171024 /* TabViewV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewV.swift; sourceTree = "<group>"; };
+		DDFCD6AA2ACBA3A0003FAA5D /* TabbarAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				DDBB89A82ACA794F00171024 /* SideMenu */,
 				DDBB89A62ACA6E5B00171024 /* AnimationsOnCards.swift */,
+				DDFCD6AA2ACBA3A0003FAA5D /* TabbarAnimation.swift */,
 			);
 			path = Conponent;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDFCD6AB2ACBA3A0003FAA5D /* TabbarAnimation.swift in Sources */,
 				DDBB899A2ACA6E1B00171024 /* ContentView.swift in Sources */,
 				DDBB89AC2ACAA0A000171024 /* TabViewV.swift in Sources */,
 				DDBB89A72ACA6E5B00171024 /* AnimationsOnCards.swift in Sources */,
