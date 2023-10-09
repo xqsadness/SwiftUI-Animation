@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD5032652ACFBD730014585A /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5032642ACFBD730014585A /* FirstView.swift */; };
+		DD5032682ACFC1DE0014585A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5032672ACFC1DE0014585A /* Color.swift */; };
+		DDB355572AD38FD800E2B4DB /* TypingEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB355562AD38FD800E2B4DB /* TypingEffectView.swift */; };
+		DDB355592AD39EEA00E2B4DB /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB355582AD39EEA00E2B4DB /* OnboardingView.swift */; };
+		DDB3555B2AD39FFE00E2B4DB /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB3555A2AD39FFE00E2B4DB /* SecondView.swift */; };
+		DDB3555D2AD3A13100E2B4DB /* HomeOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB3555C2AD3A13100E2B4DB /* HomeOnboardingView.swift */; };
 		DDBB89982ACA6E1B00171024 /* L_SwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBB89972ACA6E1B00171024 /* L_SwiftApp.swift */; };
 		DDBB899A2ACA6E1B00171024 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBB89992ACA6E1B00171024 /* ContentView.swift */; };
 		DDBB899C2ACA6E1D00171024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDBB899B2ACA6E1D00171024 /* Assets.xcassets */; };
@@ -18,6 +24,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD5032642ACFBD730014585A /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		DD5032672ACFC1DE0014585A /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		DDB355562AD38FD800E2B4DB /* TypingEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingEffectView.swift; sourceTree = "<group>"; };
+		DDB355582AD39EEA00E2B4DB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		DDB3555A2AD39FFE00E2B4DB /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		DDB3555C2AD3A13100E2B4DB /* HomeOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeOnboardingView.swift; sourceTree = "<group>"; };
 		DDBB89942ACA6E1B00171024 /* L-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "L-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDBB89972ACA6E1B00171024 /* L_SwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L_SwiftApp.swift; sourceTree = "<group>"; };
 		DDBB89992ACA6E1B00171024 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +52,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD5032632ACFBD460014585A /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				DD5032642ACFBD730014585A /* FirstView.swift */,
+				DDB355562AD38FD800E2B4DB /* TypingEffectView.swift */,
+				DDB355582AD39EEA00E2B4DB /* OnboardingView.swift */,
+				DDB3555A2AD39FFE00E2B4DB /* SecondView.swift */,
+				DDB3555C2AD3A13100E2B4DB /* HomeOnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		DD5032662ACFC1D00014585A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DD5032672ACFC1DE0014585A /* Color.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		DDBB898B2ACA6E1B00171024 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +91,7 @@
 		DDBB89962ACA6E1B00171024 /* L-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				DD5032662ACFC1D00014585A /* Extension */,
 				DDBB89A52ACA6E3C00171024 /* Conponent */,
 				DDBB89972ACA6E1B00171024 /* L_SwiftApp.swift */,
 				DDBB89992ACA6E1B00171024 /* ContentView.swift */,
@@ -79,6 +112,7 @@
 		DDBB89A52ACA6E3C00171024 /* Conponent */ = {
 			isa = PBXGroup;
 			children = (
+				DD5032632ACFBD460014585A /* Onboarding */,
 				DDBB89A82ACA794F00171024 /* SideMenu */,
 				DDBB89A62ACA6E5B00171024 /* AnimationsOnCards.swift */,
 				DDFCD6AA2ACBA3A0003FAA5D /* TabbarAnimation.swift */,
@@ -165,11 +199,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD5032652ACFBD730014585A /* FirstView.swift in Sources */,
 				DDFCD6AB2ACBA3A0003FAA5D /* TabbarAnimation.swift in Sources */,
 				DDBB899A2ACA6E1B00171024 /* ContentView.swift in Sources */,
+				DDB355592AD39EEA00E2B4DB /* OnboardingView.swift in Sources */,
 				DDBB89AC2ACAA0A000171024 /* TabViewV.swift in Sources */,
+				DDB3555B2AD39FFE00E2B4DB /* SecondView.swift in Sources */,
 				DDBB89A72ACA6E5B00171024 /* AnimationsOnCards.swift in Sources */,
+				DD5032682ACFC1DE0014585A /* Color.swift in Sources */,
 				DDBB89AA2ACA796B00171024 /* SideMenuView.swift in Sources */,
+				DDB355572AD38FD800E2B4DB /* TypingEffectView.swift in Sources */,
+				DDB3555D2AD3A13100E2B4DB /* HomeOnboardingView.swift in Sources */,
 				DDBB89982ACA6E1B00171024 /* L_SwiftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +339,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"L-Swift/Preview Content\"";
+				DEVELOPMENT_TEAM = PD5C78B8LS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -327,6 +368,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"L-Swift/Preview Content\"";
+				DEVELOPMENT_TEAM = PD5C78B8LS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
