@@ -31,45 +31,48 @@ let tabItems = [Tabbar(iconName: "square.stack", tab: .Card, index: 0),
 struct TabbarAnimation: View {
     @State var progress: CGFloat = 0.5
     @State var selectedTab: TabbarIcon = .Home
-    @State var xOffset: CGFloat = 0.0
+    @State var xOffset = 2 * 70.0
     
     var body: some View {
         GeometryReader { geometry in
-            HStack(spacing: 0) {
+            HStack {
                 ForEach(tabItems) { item in
                     Spacer()
                     Image(systemName: item.iconName)
                         .foregroundColor(.black)
                         .onTapGesture {
-                            withAnimation {
-                                selectedTab = item.tab
-                                xOffset = geometry.size.width / CGFloat(tabItems.count) * CGFloat(item.index)
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                                withAnimation() {
+                                    selectedTab = item.tab
+                                    xOffset = CGFloat(item.index) * 70.0
+                                }
                             }
                             withAnimation {
                                 progress = 0.0
                             }
                             DispatchQueue.main.asyncAfter(deadline: .now() + 0.9) {
-                                withAnimation {
+                                withAnimation() {
                                     progress = 0.5
                                 }
                             }
                         }
-                        .frame(width: 23.3, height: 23)
                     Spacer()
                 }
+                .frame(width: 23.3, height: 23)
             }
-            .frame(maxWidth: .infinity, maxHeight: 73)
+            .frame(maxWidth: geometry.size.width - 77)
+            .frame(height: 73)
             .background(.ultraThickMaterial)
             .cornerRadius(20)
             .overlay(alignment: .topLeading) {
                 CircleAnimation(circleA: $progress)
-                    .offset(x: xOffset)
                     .offset(x: 16.3, y: 17)
+                    .offset(x: xOffset)
             }
+            .frame(maxWidth: .infinity)
         }
     }
 }
-
 
 struct TabbarAnimation_Previews: PreviewProvider {
     static var previews: some View {
