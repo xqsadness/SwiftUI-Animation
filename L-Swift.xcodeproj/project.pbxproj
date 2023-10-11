@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		DD5032652ACFBD730014585A /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5032642ACFBD730014585A /* FirstView.swift */; };
 		DD5032682ACFC1DE0014585A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5032672ACFC1DE0014585A /* Color.swift */; };
+		DD528DF42AD64DF80030DCB9 /* PageIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD528DF32AD64DF80030DCB9 /* PageIntro.swift */; };
+		DD528DF72AD6520C0030DCB9 /* HomeOnBoarding2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD528DF62AD6520C0030DCB9 /* HomeOnBoarding2.swift */; };
+		DD528DF92AD653EC0030DCB9 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD528DF82AD653EC0030DCB9 /* Views.swift */; };
+		DD528DFB2AD654D80030DCB9 /* CustomIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD528DFA2AD654D80030DCB9 /* CustomIndicatorView.swift */; };
+		DD528DFD2AD659B30030DCB9 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD528DFC2AD659B30030DCB9 /* CustomTextField.swift */; };
 		DDB355572AD38FD800E2B4DB /* TypingEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB355562AD38FD800E2B4DB /* TypingEffectView.swift */; };
 		DDB355592AD39EEA00E2B4DB /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB355582AD39EEA00E2B4DB /* OnboardingView.swift */; };
 		DDB3555B2AD39FFE00E2B4DB /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB3555A2AD39FFE00E2B4DB /* SecondView.swift */; };
@@ -26,6 +31,11 @@
 /* Begin PBXFileReference section */
 		DD5032642ACFBD730014585A /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 		DD5032672ACFC1DE0014585A /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		DD528DF32AD64DF80030DCB9 /* PageIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIntro.swift; sourceTree = "<group>"; };
+		DD528DF62AD6520C0030DCB9 /* HomeOnBoarding2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeOnBoarding2.swift; sourceTree = "<group>"; };
+		DD528DF82AD653EC0030DCB9 /* Views.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		DD528DFA2AD654D80030DCB9 /* CustomIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIndicatorView.swift; sourceTree = "<group>"; };
+		DD528DFC2AD659B30030DCB9 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		DDB355562AD38FD800E2B4DB /* TypingEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingEffectView.swift; sourceTree = "<group>"; };
 		DDB355582AD39EEA00E2B4DB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		DDB3555A2AD39FFE00E2B4DB /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
@@ -67,9 +77,28 @@
 		DD5032662ACFC1D00014585A /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				DD528DF82AD653EC0030DCB9 /* Views.swift */,
 				DD5032672ACFC1DE0014585A /* Color.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		DD528DF22AD64DDD0030DCB9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DD528DF32AD64DF80030DCB9 /* PageIntro.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DD528DF52AD651BE0030DCB9 /* Onboarding2 */ = {
+			isa = PBXGroup;
+			children = (
+				DD528DF62AD6520C0030DCB9 /* HomeOnBoarding2.swift */,
+				DD528DFC2AD659B30030DCB9 /* CustomTextField.swift */,
+				DD528DFA2AD654D80030DCB9 /* CustomIndicatorView.swift */,
+			);
+			path = Onboarding2;
 			sourceTree = "<group>";
 		};
 		DDBB898B2ACA6E1B00171024 = {
@@ -91,8 +120,9 @@
 		DDBB89962ACA6E1B00171024 /* L-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				DD528DF22AD64DDD0030DCB9 /* Models */,
 				DD5032662ACFC1D00014585A /* Extension */,
-				DDBB89A52ACA6E3C00171024 /* Conponent */,
+				DDBB89A52ACA6E3C00171024 /* Conponents */,
 				DDBB89972ACA6E1B00171024 /* L_SwiftApp.swift */,
 				DDBB89992ACA6E1B00171024 /* ContentView.swift */,
 				DDBB899B2ACA6E1D00171024 /* Assets.xcassets */,
@@ -109,15 +139,16 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		DDBB89A52ACA6E3C00171024 /* Conponent */ = {
+		DDBB89A52ACA6E3C00171024 /* Conponents */ = {
 			isa = PBXGroup;
 			children = (
+				DD528DF52AD651BE0030DCB9 /* Onboarding2 */,
 				DD5032632ACFBD460014585A /* Onboarding */,
 				DDBB89A82ACA794F00171024 /* SideMenu */,
 				DDBB89A62ACA6E5B00171024 /* AnimationsOnCards.swift */,
 				DDFCD6AA2ACBA3A0003FAA5D /* TabbarAnimation.swift */,
 			);
-			path = Conponent;
+			path = Conponents;
 			sourceTree = "<group>";
 		};
 		DDBB89A82ACA794F00171024 /* SideMenu */ = {
@@ -199,12 +230,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD528DF72AD6520C0030DCB9 /* HomeOnBoarding2.swift in Sources */,
+				DD528DF42AD64DF80030DCB9 /* PageIntro.swift in Sources */,
 				DD5032652ACFBD730014585A /* FirstView.swift in Sources */,
 				DDFCD6AB2ACBA3A0003FAA5D /* TabbarAnimation.swift in Sources */,
 				DDBB899A2ACA6E1B00171024 /* ContentView.swift in Sources */,
 				DDB355592AD39EEA00E2B4DB /* OnboardingView.swift in Sources */,
 				DDBB89AC2ACAA0A000171024 /* TabViewV.swift in Sources */,
+				DD528DFB2AD654D80030DCB9 /* CustomIndicatorView.swift in Sources */,
+				DD528DFD2AD659B30030DCB9 /* CustomTextField.swift in Sources */,
 				DDB3555B2AD39FFE00E2B4DB /* SecondView.swift in Sources */,
+				DD528DF92AD653EC0030DCB9 /* Views.swift in Sources */,
 				DDBB89A72ACA6E5B00171024 /* AnimationsOnCards.swift in Sources */,
 				DD5032682ACFC1DE0014585A /* Color.swift in Sources */,
 				DDBB89AA2ACA796B00171024 /* SideMenuView.swift in Sources */,
