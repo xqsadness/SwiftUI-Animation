@@ -17,5 +17,7 @@ https://github.com/xqsadness/L-SwiftUI/assets/81242756/2c48487d-a303-4a09-92d4-2
 
 https://github.com/xqsadness/L-SwiftUI/assets/81242756/77b71d05-b009-4a9a-9cb7-7f5537130b32
 
+<a href="https://github.com/xqsadness/L-SwiftUI/tree/master/L-Swift/Conponents/ParticleEffects"> ParticleEffects </a>
 
+https://github.com/xqsadness/L-SwiftUI/assets/81242756/6e72b7af-2856-4065-9c67-588c6acaba0c
 
