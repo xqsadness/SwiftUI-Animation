@@ -14,6 +14,9 @@
 		DD5079F12AD7894B00D6535C /* TabShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5079F02AD7894B00D6535C /* TabShape.swift */; };
 		DD5079F32AD78A5500D6535C /* TabPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5079F22AD78A5500D6535C /* TabPosition.swift */; };
 		DD5079F52AD7922300D6535C /* MovableGrids.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5079F42AD7922300D6535C /* MovableGrids.swift */; };
+		DD5079F82AD7E38C00D6535C /* ParticleEffectsHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5079F72AD7E38C00D6535C /* ParticleEffectsHome.swift */; };
+		DD5079FA2AD7E5ED00D6535C /* ParticleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5079F92AD7E5ED00D6535C /* ParticleEffect.swift */; };
+		DD5079FC2AD7E69D00D6535C /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5079FB2AD7E69D00D6535C /* Particle.swift */; };
 		DD528DF42AD64DF80030DCB9 /* PageIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD528DF32AD64DF80030DCB9 /* PageIntro.swift */; };
 		DD528DF72AD6520C0030DCB9 /* HomeOnBoarding2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD528DF62AD6520C0030DCB9 /* HomeOnBoarding2.swift */; };
 		DD528DF92AD653EC0030DCB9 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD528DF82AD653EC0030DCB9 /* Views.swift */; };
@@ -41,6 +44,9 @@
 		DD5079F02AD7894B00D6535C /* TabShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabShape.swift; sourceTree = "<group>"; };
 		DD5079F22AD78A5500D6535C /* TabPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPosition.swift; sourceTree = "<group>"; };
 		DD5079F42AD7922300D6535C /* MovableGrids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovableGrids.swift; sourceTree = "<group>"; };
+		DD5079F72AD7E38C00D6535C /* ParticleEffectsHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleEffectsHome.swift; sourceTree = "<group>"; };
+		DD5079F92AD7E5ED00D6535C /* ParticleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleEffect.swift; sourceTree = "<group>"; };
+		DD5079FB2AD7E69D00D6535C /* Particle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Particle.swift; sourceTree = "<group>"; };
 		DD528DF32AD64DF80030DCB9 /* PageIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIntro.swift; sourceTree = "<group>"; };
 		DD528DF62AD6520C0030DCB9 /* HomeOnBoarding2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeOnBoarding2.swift; sourceTree = "<group>"; };
 		DD528DF82AD653EC0030DCB9 /* Views.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
@@ -103,11 +109,21 @@
 			path = Tabbar2;
 			sourceTree = "<group>";
 		};
+		DD5079F62AD7E33E00D6535C /* ParticleEffects */ = {
+			isa = PBXGroup;
+			children = (
+				DD5079F72AD7E38C00D6535C /* ParticleEffectsHome.swift */,
+				DD5079F92AD7E5ED00D6535C /* ParticleEffect.swift */,
+			);
+			path = ParticleEffects;
+			sourceTree = "<group>";
+		};
 		DD528DF22AD64DDD0030DCB9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				DD528DF32AD64DF80030DCB9 /* PageIntro.swift */,
 				DD5079EB2AD781F300D6535C /* Tab.swift */,
+				DD5079FB2AD7E69D00D6535C /* Particle.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -163,6 +179,7 @@
 		DDBB89A52ACA6E3C00171024 /* Conponents */ = {
 			isa = PBXGroup;
 			children = (
+				DD5079F62AD7E33E00D6535C /* ParticleEffects */,
 				DD5079ED2AD7832100D6535C /* Tabbar2 */,
 				DD528DF52AD651BE0030DCB9 /* Onboarding2 */,
 				DD5032632ACFBD460014585A /* Onboarding */,
@@ -254,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD528DF72AD6520C0030DCB9 /* HomeOnBoarding2.swift in Sources */,
+				DD5079FC2AD7E69D00D6535C /* Particle.swift in Sources */,
 				DD528DF42AD64DF80030DCB9 /* PageIntro.swift in Sources */,
 				DD5032652ACFBD730014585A /* FirstView.swift in Sources */,
 				DDFCD6AB2ACBA3A0003FAA5D /* TabbarAnimation.swift in Sources */,
@@ -261,6 +279,7 @@
 				DD5079EF2AD7835900D6535C /* HomeTabbar2View.swift in Sources */,
 				DDB355592AD39EEA00E2B4DB /* OnboardingView.swift in Sources */,
 				DDBB89AC2ACAA0A000171024 /* TabViewV.swift in Sources */,
+				DD5079FA2AD7E5ED00D6535C /* ParticleEffect.swift in Sources */,
 				DD528DFB2AD654D80030DCB9 /* CustomIndicatorView.swift in Sources */,
 				DD5079F12AD7894B00D6535C /* TabShape.swift in Sources */,
 				DD528DFD2AD659B30030DCB9 /* CustomTextField.swift in Sources */,
@@ -268,6 +287,7 @@
 				DD528DF92AD653EC0030DCB9 /* Views.swift in Sources */,
 				DDBB89A72ACA6E5B00171024 /* AnimationsOnCards.swift in Sources */,
 				DD5079F32AD78A5500D6535C /* TabPosition.swift in Sources */,
+				DD5079F82AD7E38C00D6535C /* ParticleEffectsHome.swift in Sources */,
 				DD5032682ACFC1DE0014585A /* Color.swift in Sources */,
 				DD5079F52AD7922300D6535C /* MovableGrids.swift in Sources */,
 				DDBB89AA2ACA796B00171024 /* SideMenuView.swift in Sources */,
