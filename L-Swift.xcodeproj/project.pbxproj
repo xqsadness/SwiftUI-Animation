@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		DD5032652ACFBD730014585A /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5032642ACFBD730014585A /* FirstView.swift */; };
 		DD5032682ACFC1DE0014585A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5032672ACFC1DE0014585A /* Color.swift */; };
+		DD5079EC2AD781F300D6535C /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5079EB2AD781F300D6535C /* Tab.swift */; };
+		DD5079EF2AD7835900D6535C /* HomeTabbar2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5079EE2AD7835900D6535C /* HomeTabbar2View.swift */; };
+		DD5079F12AD7894B00D6535C /* TabShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5079F02AD7894B00D6535C /* TabShape.swift */; };
+		DD5079F32AD78A5500D6535C /* TabPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5079F22AD78A5500D6535C /* TabPosition.swift */; };
 		DD528DF42AD64DF80030DCB9 /* PageIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD528DF32AD64DF80030DCB9 /* PageIntro.swift */; };
 		DD528DF72AD6520C0030DCB9 /* HomeOnBoarding2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD528DF62AD6520C0030DCB9 /* HomeOnBoarding2.swift */; };
 		DD528DF92AD653EC0030DCB9 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD528DF82AD653EC0030DCB9 /* Views.swift */; };
@@ -31,6 +35,10 @@
 /* Begin PBXFileReference section */
 		DD5032642ACFBD730014585A /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 		DD5032672ACFC1DE0014585A /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		DD5079EB2AD781F300D6535C /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		DD5079EE2AD7835900D6535C /* HomeTabbar2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabbar2View.swift; sourceTree = "<group>"; };
+		DD5079F02AD7894B00D6535C /* TabShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabShape.swift; sourceTree = "<group>"; };
+		DD5079F22AD78A5500D6535C /* TabPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPosition.swift; sourceTree = "<group>"; };
 		DD528DF32AD64DF80030DCB9 /* PageIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIntro.swift; sourceTree = "<group>"; };
 		DD528DF62AD6520C0030DCB9 /* HomeOnBoarding2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeOnBoarding2.swift; sourceTree = "<group>"; };
 		DD528DF82AD653EC0030DCB9 /* Views.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
@@ -83,10 +91,21 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		DD5079ED2AD7832100D6535C /* Tabbar2 */ = {
+			isa = PBXGroup;
+			children = (
+				DD5079EE2AD7835900D6535C /* HomeTabbar2View.swift */,
+				DD5079F22AD78A5500D6535C /* TabPosition.swift */,
+				DD5079F02AD7894B00D6535C /* TabShape.swift */,
+			);
+			path = Tabbar2;
+			sourceTree = "<group>";
+		};
 		DD528DF22AD64DDD0030DCB9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				DD528DF32AD64DF80030DCB9 /* PageIntro.swift */,
+				DD5079EB2AD781F300D6535C /* Tab.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -142,6 +161,7 @@
 		DDBB89A52ACA6E3C00171024 /* Conponents */ = {
 			isa = PBXGroup;
 			children = (
+				DD5079ED2AD7832100D6535C /* Tabbar2 */,
 				DD528DF52AD651BE0030DCB9 /* Onboarding2 */,
 				DD5032632ACFBD460014585A /* Onboarding */,
 				DDBB89A82ACA794F00171024 /* SideMenu */,
@@ -235,16 +255,20 @@
 				DD5032652ACFBD730014585A /* FirstView.swift in Sources */,
 				DDFCD6AB2ACBA3A0003FAA5D /* TabbarAnimation.swift in Sources */,
 				DDBB899A2ACA6E1B00171024 /* ContentView.swift in Sources */,
+				DD5079EF2AD7835900D6535C /* HomeTabbar2View.swift in Sources */,
 				DDB355592AD39EEA00E2B4DB /* OnboardingView.swift in Sources */,
 				DDBB89AC2ACAA0A000171024 /* TabViewV.swift in Sources */,
 				DD528DFB2AD654D80030DCB9 /* CustomIndicatorView.swift in Sources */,
+				DD5079F12AD7894B00D6535C /* TabShape.swift in Sources */,
 				DD528DFD2AD659B30030DCB9 /* CustomTextField.swift in Sources */,
 				DDB3555B2AD39FFE00E2B4DB /* SecondView.swift in Sources */,
 				DD528DF92AD653EC0030DCB9 /* Views.swift in Sources */,
 				DDBB89A72ACA6E5B00171024 /* AnimationsOnCards.swift in Sources */,
+				DD5079F32AD78A5500D6535C /* TabPosition.swift in Sources */,
 				DD5032682ACFC1DE0014585A /* Color.swift in Sources */,
 				DDBB89AA2ACA796B00171024 /* SideMenuView.swift in Sources */,
 				DDB355572AD38FD800E2B4DB /* TypingEffectView.swift in Sources */,
+				DD5079EC2AD781F300D6535C /* Tab.swift in Sources */,
 				DDB3555D2AD3A13100E2B4DB /* HomeOnboardingView.swift in Sources */,
 				DDBB89982ACA6E1B00171024 /* L_SwiftApp.swift in Sources */,
 			);

@@ -17,7 +17,7 @@ struct HomeOnboardingView: View {
             GeoView(isExpanded: $isExpanded, startTyping: $startTyping, showText: $showText, color: "tview", text: "START", showToogleExpand: false)
             
             VStack(alignment: .leading){
-                Text("Swiftu 123123132i \nFramework").font(.system(size: 50)).bold()
+                Text("Swiftui \nFramework").font(.system(size: 50)).bold()
             }
             .opacity(isExpanded ? 1 : 0)
             .scaleEffect(isExpanded ? 1 : 0)
