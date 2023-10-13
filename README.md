@@ -25,7 +25,7 @@ https://github.com/xqsadness/L-SwiftUI/assets/81242756/6e72b7af-2856-4065-9c67-5
 
 https://github.com/xqsadness/L-SwiftUI/assets/81242756/9098bfe4-9639-45e6-87da-9a55be814f4d
 
-<a href="https://github.com/xqsadness/L-SwiftUI/tree/master/L-Swift/Conponents/LazyCompositional"> Compositional </a>
+<a href="https://github.com/xqsadness/L-SwiftUI/tree/master/L-Swift/Conponents/LazyCompositional"> Compositional Layout </a>
 
 https://github.com/xqsadness/L-SwiftUI/assets/81242756/c4bbd46a-8d9f-4c31-a41c-b66a866d2f27
 
