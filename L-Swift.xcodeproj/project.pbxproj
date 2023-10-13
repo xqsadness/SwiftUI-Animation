@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD3A38D02AD8D5F600BA4100 /* ArcMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3A38CF2AD8D5F600BA4100 /* ArcMenuButton.swift */; };
 		DD5032652ACFBD730014585A /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5032642ACFBD730014585A /* FirstView.swift */; };
 		DD5032682ACFC1DE0014585A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5032672ACFC1DE0014585A /* Color.swift */; };
 		DD5079EC2AD781F300D6535C /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5079EB2AD781F300D6535C /* Tab.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD3A38CF2AD8D5F600BA4100 /* ArcMenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcMenuButton.swift; sourceTree = "<group>"; };
 		DD5032642ACFBD730014585A /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 		DD5032672ACFC1DE0014585A /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		DD5079EB2AD781F300D6535C /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 				DDBB89A62ACA6E5B00171024 /* AnimationsOnCards.swift */,
 				DDFCD6AA2ACBA3A0003FAA5D /* TabbarAnimation.swift */,
 				DD5079F42AD7922300D6535C /* MovableGrids.swift */,
+				DD3A38CF2AD8D5F600BA4100 /* ArcMenuButton.swift */,
 			);
 			path = Conponents;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 				DDBB89AA2ACA796B00171024 /* SideMenuView.swift in Sources */,
 				DDB355572AD38FD800E2B4DB /* TypingEffectView.swift in Sources */,
 				DD5079EC2AD781F300D6535C /* Tab.swift in Sources */,
+				DD3A38D02AD8D5F600BA4100 /* ArcMenuButton.swift in Sources */,
 				DDB3555D2AD3A13100E2B4DB /* HomeOnboardingView.swift in Sources */,
 				DDBB89982ACA6E1B00171024 /* L_SwiftApp.swift in Sources */,
 			);
