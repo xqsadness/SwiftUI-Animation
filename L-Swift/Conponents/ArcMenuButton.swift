@@ -68,6 +68,7 @@ struct ArcMenuButton_Previews: PreviewProvider {
     }
 }
 
+//Add button here
 enum ArcMenuButtonName: String {
     case capture = "circle"
     case star = "star"

@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		DD3A38D02AD8D5F600BA4100 /* ArcMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3A38CF2AD8D5F600BA4100 /* ArcMenuButton.swift */; };
+		DD3A38D82AD8EA6000BA4100 /* CompositionalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3A38D72AD8EA6000BA4100 /* CompositionalView.swift */; };
+		DD3A38DA2AD8ED7B00BA4100 /* HomeCompositionalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3A38D92AD8ED7B00BA4100 /* HomeCompositionalView.swift */; };
+		DD3A38DC2AD8F56000BA4100 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3A38DB2AD8F56000BA4100 /* ImageModel.swift */; };
+		DD3A38DE2AD8F60200BA4100 /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3A38DD2AD8F60200BA4100 /* ImageFetcher.swift */; };
+		DD3A38E12AD8FA8D00BA4100 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = DD3A38E02AD8FA8D00BA4100 /* SDWebImageSwiftUI */; };
 		DD5032652ACFBD730014585A /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5032642ACFBD730014585A /* FirstView.swift */; };
 		DD5032682ACFC1DE0014585A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5032672ACFC1DE0014585A /* Color.swift */; };
 		DD5079EC2AD781F300D6535C /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5079EB2AD781F300D6535C /* Tab.swift */; };
@@ -39,6 +44,10 @@
 
 /* Begin PBXFileReference section */
 		DD3A38CF2AD8D5F600BA4100 /* ArcMenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcMenuButton.swift; sourceTree = "<group>"; };
+		DD3A38D72AD8EA6000BA4100 /* CompositionalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalView.swift; sourceTree = "<group>"; };
+		DD3A38D92AD8ED7B00BA4100 /* HomeCompositionalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCompositionalView.swift; sourceTree = "<group>"; };
+		DD3A38DB2AD8F56000BA4100 /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		DD3A38DD2AD8F60200BA4100 /* ImageFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFetcher.swift; sourceTree = "<group>"; };
 		DD5032642ACFBD730014585A /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 		DD5032672ACFC1DE0014585A /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		DD5079EB2AD781F300D6535C /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
@@ -74,12 +83,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD3A38E12AD8FA8D00BA4100 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD3A38D52AD8E96B00BA4100 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DD3A38DD2AD8F60200BA4100 /* ImageFetcher.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DD3A38D62AD8EA2600BA4100 /* LazyCompositional */ = {
+			isa = PBXGroup;
+			children = (
+				DD3A38D72AD8EA6000BA4100 /* CompositionalView.swift */,
+				DD3A38D92AD8ED7B00BA4100 /* HomeCompositionalView.swift */,
+			);
+			path = LazyCompositional;
+			sourceTree = "<group>";
+		};
 		DD5032632ACFBD460014585A /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +153,7 @@
 				DD528DF32AD64DF80030DCB9 /* PageIntro.swift */,
 				DD5079EB2AD781F300D6535C /* Tab.swift */,
 				DD5079FB2AD7E69D00D6535C /* Particle.swift */,
+				DD3A38DB2AD8F56000BA4100 /* ImageModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -159,6 +187,7 @@
 		DDBB89962ACA6E1B00171024 /* L-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				DD3A38D52AD8E96B00BA4100 /* ViewModel */,
 				DD528DF22AD64DDD0030DCB9 /* Models */,
 				DD5032662ACFC1D00014585A /* Extension */,
 				DDBB89A52ACA6E3C00171024 /* Conponents */,
@@ -181,6 +210,7 @@
 		DDBB89A52ACA6E3C00171024 /* Conponents */ = {
 			isa = PBXGroup;
 			children = (
+				DD3A38D62AD8EA2600BA4100 /* LazyCompositional */,
 				DD5079F62AD7E33E00D6535C /* ParticleEffects */,
 				DD5079ED2AD7832100D6535C /* Tabbar2 */,
 				DD528DF52AD651BE0030DCB9 /* Onboarding2 */,
@@ -219,6 +249,9 @@
 			dependencies = (
 			);
 			name = "L-Swift";
+			packageProductDependencies = (
+				DD3A38E02AD8FA8D00BA4100 /* SDWebImageSwiftUI */,
+			);
 			productName = "L-Swift";
 			productReference = DDBB89942ACA6E1B00171024 /* L-Swift.app */;
 			productType = "com.apple.product-type.application";
@@ -247,6 +280,9 @@
 				Base,
 			);
 			mainGroup = DDBB898B2ACA6E1B00171024;
+			packageReferences = (
+				DD3A38DF2AD8FA8D00BA4100 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = DDBB89952ACA6E1B00171024 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -282,14 +318,18 @@
 				DD5079EF2AD7835900D6535C /* HomeTabbar2View.swift in Sources */,
 				DDB355592AD39EEA00E2B4DB /* OnboardingView.swift in Sources */,
 				DDBB89AC2ACAA0A000171024 /* TabViewV.swift in Sources */,
+				DD3A38DE2AD8F60200BA4100 /* ImageFetcher.swift in Sources */,
+				DD3A38D82AD8EA6000BA4100 /* CompositionalView.swift in Sources */,
 				DD5079FA2AD7E5ED00D6535C /* ParticleEffect.swift in Sources */,
 				DD528DFB2AD654D80030DCB9 /* CustomIndicatorView.swift in Sources */,
+				DD3A38DA2AD8ED7B00BA4100 /* HomeCompositionalView.swift in Sources */,
 				DD5079F12AD7894B00D6535C /* TabShape.swift in Sources */,
 				DD528DFD2AD659B30030DCB9 /* CustomTextField.swift in Sources */,
 				DDB3555B2AD39FFE00E2B4DB /* SecondView.swift in Sources */,
 				DD528DF92AD653EC0030DCB9 /* Views.swift in Sources */,
 				DDBB89A72ACA6E5B00171024 /* AnimationsOnCards.swift in Sources */,
 				DD5079F32AD78A5500D6535C /* TabPosition.swift in Sources */,
+				DD3A38DC2AD8F56000BA4100 /* ImageModel.swift in Sources */,
 				DD5079F82AD7E38C00D6535C /* ParticleEffectsHome.swift in Sources */,
 				DD5032682ACFC1DE0014585A /* Color.swift in Sources */,
 				DD5079F52AD7922300D6535C /* MovableGrids.swift in Sources */,
@@ -499,6 +539,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DD3A38DF2AD8FA8D00BA4100 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DD3A38E02AD8FA8D00BA4100 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD3A38DF2AD8FA8D00BA4100 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DDBB898C2ACA6E1B00171024 /* Project object */;
 }
