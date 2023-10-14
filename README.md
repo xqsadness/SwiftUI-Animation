@@ -33,3 +33,7 @@ https://github.com/xqsadness/L-SwiftUI/assets/81242756/c4bbd46a-8d9f-4c31-a41c-b
 
 https://github.com/xqsadness/L-SwiftUI/assets/81242756/3b92ff8b-96b7-48a0-baf4-f7672e83d39f
 
+<a href="https://github.com/xqsadness/L-SwiftUI/blob/master/L-Swift/Components/CustomSearchbar.swift"> Custom Search bar </a>
+
+https://github.com/xqsadness/L-SwiftUI/assets/81242756/46b5b3dd-bfac-4c59-905d-1aeaf7db6842
+
