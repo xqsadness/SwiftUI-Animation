@@ -28,6 +28,7 @@
 		DD528DF92AD653EC0030DCB9 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD528DF82AD653EC0030DCB9 /* Views.swift */; };
 		DD528DFB2AD654D80030DCB9 /* CustomIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD528DFA2AD654D80030DCB9 /* CustomIndicatorView.swift */; };
 		DD528DFD2AD659B30030DCB9 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD528DFC2AD659B30030DCB9 /* CustomTextField.swift */; };
+		DD7FAC3C2ADA24A30099C44F /* CustomSearchbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FAC3B2ADA24A30099C44F /* CustomSearchbar.swift */; };
 		DD92C76C2AD936B700A7A48B /* PasswordStrength.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD92C76B2AD936B700A7A48B /* PasswordStrength.swift */; };
 		DDB355572AD38FD800E2B4DB /* TypingEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB355562AD38FD800E2B4DB /* TypingEffectView.swift */; };
 		DDB355592AD39EEA00E2B4DB /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB355582AD39EEA00E2B4DB /* OnboardingView.swift */; };
@@ -64,6 +65,7 @@
 		DD528DF82AD653EC0030DCB9 /* Views.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
 		DD528DFA2AD654D80030DCB9 /* CustomIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIndicatorView.swift; sourceTree = "<group>"; };
 		DD528DFC2AD659B30030DCB9 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		DD7FAC3B2ADA24A30099C44F /* CustomSearchbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchbar.swift; sourceTree = "<group>"; };
 		DD92C76B2AD936B700A7A48B /* PasswordStrength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordStrength.swift; sourceTree = "<group>"; };
 		DDB355562AD38FD800E2B4DB /* TypingEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingEffectView.swift; sourceTree = "<group>"; };
 		DDB355582AD39EEA00E2B4DB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
@@ -192,7 +194,7 @@
 				DD3A38D52AD8E96B00BA4100 /* ViewModel */,
 				DD528DF22AD64DDD0030DCB9 /* Models */,
 				DD5032662ACFC1D00014585A /* Extension */,
-				DDBB89A52ACA6E3C00171024 /* Conponents */,
+				DDBB89A52ACA6E3C00171024 /* Components */,
 				DDBB89972ACA6E1B00171024 /* L_SwiftApp.swift */,
 				DDBB89992ACA6E1B00171024 /* ContentView.swift */,
 				DDBB899B2ACA6E1D00171024 /* Assets.xcassets */,
@@ -209,7 +211,7 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		DDBB89A52ACA6E3C00171024 /* Conponents */ = {
+		DDBB89A52ACA6E3C00171024 /* Components */ = {
 			isa = PBXGroup;
 			children = (
 				DD3A38D62AD8EA2600BA4100 /* LazyCompositional */,
@@ -223,8 +225,9 @@
 				DD5079F42AD7922300D6535C /* MovableGrids.swift */,
 				DD3A38CF2AD8D5F600BA4100 /* ArcMenuButton.swift */,
 				DD92C76B2AD936B700A7A48B /* PasswordStrength.swift */,
+				DD7FAC3B2ADA24A30099C44F /* CustomSearchbar.swift */,
 			);
-			path = Conponents;
+			path = Components;
 			sourceTree = "<group>";
 		};
 		DDBB89A82ACA794F00171024 /* SideMenu */ = {
@@ -334,6 +337,7 @@
 				DD5079F32AD78A5500D6535C /* TabPosition.swift in Sources */,
 				DD92C76C2AD936B700A7A48B /* PasswordStrength.swift in Sources */,
 				DD3A38DC2AD8F56000BA4100 /* ImageModel.swift in Sources */,
+				DD7FAC3C2ADA24A30099C44F /* CustomSearchbar.swift in Sources */,
 				DD5079F82AD7E38C00D6535C /* ParticleEffectsHome.swift in Sources */,
 				DD5032682ACFC1DE0014585A /* Color.swift in Sources */,
 				DD5079F52AD7922300D6535C /* MovableGrids.swift in Sources */,

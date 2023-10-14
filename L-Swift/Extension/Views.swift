@@ -23,11 +23,7 @@ extension View{
         self
             .frame(maxHeight: .infinity, alignment: alignment)
     }
-    
-    func frameWH(width: CGFloat?, height: CGFloat?) -> some View{
-        self
-            .frame(width: width, height: height)
-    }
+
     //    Mark: custom border view with padding
     func border (_ width: CGFloat, _ color: Color) -> some View{
         self

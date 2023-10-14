@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var show = true
+//    @State var show = true
+//    @State var searchText = ""
     
     var body: some View {
         VStack{
@@ -51,7 +52,10 @@ struct ContentView: View {
              //Strength Meter with Progress & Color Feedback
              PasswordStrength()
              
+             // Search bar
+             CustomSearchbar(searchText: $searchText)
              */
+            
         }
     }
 }

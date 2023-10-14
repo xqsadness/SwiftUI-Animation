@@ -16,7 +16,7 @@ struct ArcMenuButton: View {
         ZStack{
             ForEach(buttons.indices, id: \.self){ index in
                 Image(systemName: buttons[index].rawValue)
-                    .frameWH(width: 10, height: 10)
+                    .frame(width: 10, height: 10)
                     .padding()
                     .background(Color(.systemGray6))
                     .foregroundColor(.gray)
