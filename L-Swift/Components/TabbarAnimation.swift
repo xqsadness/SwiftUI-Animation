@@ -80,7 +80,6 @@ struct TabbarAnimation_Previews: PreviewProvider {
     }
 }
 
-
 struct CircleAnimation: View {
     @Binding var circleA: CGFloat
     

@@ -55,7 +55,7 @@ struct ContentView: View {
              // Search bar
              CustomSearchbar(searchText: $searchText)
              */
-            
+            BubbleTransition()
         }
     }
 }

@@ -29,6 +29,7 @@
 		DD528DFB2AD654D80030DCB9 /* CustomIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD528DFA2AD654D80030DCB9 /* CustomIndicatorView.swift */; };
 		DD528DFD2AD659B30030DCB9 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD528DFC2AD659B30030DCB9 /* CustomTextField.swift */; };
 		DD7FAC3C2ADA24A30099C44F /* CustomSearchbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FAC3B2ADA24A30099C44F /* CustomSearchbar.swift */; };
+		DD871AE02B01D5E200F26360 /* BubbleTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD871ADF2B01D5E200F26360 /* BubbleTransition.swift */; };
 		DD92C76C2AD936B700A7A48B /* PasswordStrength.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD92C76B2AD936B700A7A48B /* PasswordStrength.swift */; };
 		DDB355572AD38FD800E2B4DB /* TypingEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB355562AD38FD800E2B4DB /* TypingEffectView.swift */; };
 		DDB355592AD39EEA00E2B4DB /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB355582AD39EEA00E2B4DB /* OnboardingView.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD1651EA2AF8966B004DB3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DD3A38CF2AD8D5F600BA4100 /* ArcMenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcMenuButton.swift; sourceTree = "<group>"; };
 		DD3A38D72AD8EA6000BA4100 /* CompositionalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalView.swift; sourceTree = "<group>"; };
 		DD3A38D92AD8ED7B00BA4100 /* HomeCompositionalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCompositionalView.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 		DD528DFA2AD654D80030DCB9 /* CustomIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIndicatorView.swift; sourceTree = "<group>"; };
 		DD528DFC2AD659B30030DCB9 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		DD7FAC3B2ADA24A30099C44F /* CustomSearchbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchbar.swift; sourceTree = "<group>"; };
+		DD871ADF2B01D5E200F26360 /* BubbleTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleTransition.swift; sourceTree = "<group>"; };
 		DD92C76B2AD936B700A7A48B /* PasswordStrength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordStrength.swift; sourceTree = "<group>"; };
 		DDB355562AD38FD800E2B4DB /* TypingEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingEffectView.swift; sourceTree = "<group>"; };
 		DDB355582AD39EEA00E2B4DB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
@@ -172,6 +175,14 @@
 			path = Onboarding2;
 			sourceTree = "<group>";
 		};
+		DD871ADE2B01D5C200F26360 /* BubbleTransition */ = {
+			isa = PBXGroup;
+			children = (
+				DD871ADF2B01D5E200F26360 /* BubbleTransition.swift */,
+			);
+			path = BubbleTransition;
+			sourceTree = "<group>";
+		};
 		DDBB898B2ACA6E1B00171024 = {
 			isa = PBXGroup;
 			children = (
@@ -191,6 +202,7 @@
 		DDBB89962ACA6E1B00171024 /* L-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				DD1651EA2AF8966B004DB3F5 /* Info.plist */,
 				DD3A38D52AD8E96B00BA4100 /* ViewModel */,
 				DD528DF22AD64DDD0030DCB9 /* Models */,
 				DD5032662ACFC1D00014585A /* Extension */,
@@ -214,6 +226,7 @@
 		DDBB89A52ACA6E3C00171024 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				DD871ADE2B01D5C200F26360 /* BubbleTransition */,
 				DD3A38D62AD8EA2600BA4100 /* LazyCompositional */,
 				DD5079F62AD7E33E00D6535C /* ParticleEffects */,
 				DD5079ED2AD7832100D6535C /* Tabbar2 */,
@@ -321,6 +334,7 @@
 				DD5032652ACFBD730014585A /* FirstView.swift in Sources */,
 				DDFCD6AB2ACBA3A0003FAA5D /* TabbarAnimation.swift in Sources */,
 				DDBB899A2ACA6E1B00171024 /* ContentView.swift in Sources */,
+				DD871AE02B01D5E200F26360 /* BubbleTransition.swift in Sources */,
 				DD5079EF2AD7835900D6535C /* HomeTabbar2View.swift in Sources */,
 				DDB355592AD39EEA00E2B4DB /* OnboardingView.swift in Sources */,
 				DDBB89AC2ACAA0A000171024 /* TabViewV.swift in Sources */,
@@ -478,7 +492,7 @@
 				DEVELOPMENT_TEAM = PD5C78B8LS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "L-Swift/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -507,7 +521,7 @@
 				DEVELOPMENT_TEAM = PD5C78B8LS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "L-Swift/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
