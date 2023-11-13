@@ -37,3 +37,6 @@ https://github.com/xqsadness/L-SwiftUI/assets/81242756/3b92ff8b-96b7-48a0-baf4-f
 
 https://github.com/xqsadness/L-SwiftUI/assets/81242756/46b5b3dd-bfac-4c59-905d-1aeaf7db6842
 
+<a href="https://github.com/xqsadness/L-SwiftUI/blob/master/L-Swift/Components/CustomSearchbar.swift"> BubbleTransition </a>
+
+https://github.com/xqsadness/L-SwiftUI/assets/81242756/997d79a5-951b-48b2-bc6f-7679f28688a9
