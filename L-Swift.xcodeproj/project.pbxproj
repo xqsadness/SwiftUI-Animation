@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD2B0F552C1BF686005C6BAA /* TimeLineAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2B0F542C1BF686005C6BAA /* TimeLineAnimation.swift */; };
 		DD3A38D02AD8D5F600BA4100 /* ArcMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3A38CF2AD8D5F600BA4100 /* ArcMenuButton.swift */; };
 		DD3A38D82AD8EA6000BA4100 /* CompositionalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3A38D72AD8EA6000BA4100 /* CompositionalView.swift */; };
 		DD3A38DA2AD8ED7B00BA4100 /* HomeCompositionalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3A38D92AD8ED7B00BA4100 /* HomeCompositionalView.swift */; };
@@ -48,6 +49,7 @@
 
 /* Begin PBXFileReference section */
 		DD1651EA2AF8966B004DB3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DD2B0F542C1BF686005C6BAA /* TimeLineAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineAnimation.swift; sourceTree = "<group>"; };
 		DD3A38CF2AD8D5F600BA4100 /* ArcMenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcMenuButton.swift; sourceTree = "<group>"; };
 		DD3A38D72AD8EA6000BA4100 /* CompositionalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalView.swift; sourceTree = "<group>"; };
 		DD3A38D92AD8ED7B00BA4100 /* HomeCompositionalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCompositionalView.swift; sourceTree = "<group>"; };
@@ -242,6 +244,7 @@
 				DD3A38CF2AD8D5F600BA4100 /* ArcMenuButton.swift */,
 				DD92C76B2AD936B700A7A48B /* PasswordStrength.swift */,
 				DD7FAC3B2ADA24A30099C44F /* CustomSearchbar.swift */,
+				DD2B0F542C1BF686005C6BAA /* TimeLineAnimation.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 				DD3A38DE2AD8F60200BA4100 /* ImageFetcher.swift in Sources */,
 				DD3A38D82AD8EA6000BA4100 /* CompositionalView.swift in Sources */,
 				DD5079FA2AD7E5ED00D6535C /* ParticleEffect.swift in Sources */,
+				DD2B0F552C1BF686005C6BAA /* TimeLineAnimation.swift in Sources */,
 				DD528DFB2AD654D80030DCB9 /* CustomIndicatorView.swift in Sources */,
 				DD3A38DA2AD8ED7B00BA4100 /* HomeCompositionalView.swift in Sources */,
 				DD5079F12AD7894B00D6535C /* TabShape.swift in Sources */,

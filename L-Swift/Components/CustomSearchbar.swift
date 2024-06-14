@@ -2,7 +2,7 @@
 //  CustomSearchbar.swift
 //  L-Swift
 //
-//  Created by darktech4 on 14/10/2023.
+//  Created by xqsadness on 14/10/2023.
 //
 
 import SwiftUI

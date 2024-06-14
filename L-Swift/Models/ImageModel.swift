@@ -2,7 +2,7 @@
 //  ImageModel.swift
 //  L-Swift
 //
-//  Created by darktech4 on 13/10/2023.
+//  Created by xqsadness on 13/10/2023.
 //
 
 import SwiftUI
