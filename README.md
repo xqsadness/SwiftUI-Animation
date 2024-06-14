@@ -40,3 +40,12 @@ https://github.com/xqsadness/L-SwiftUI/assets/81242756/46b5b3dd-bfac-4c59-905d-1
 <a href="https://github.com/xqsadness/L-SwiftUI/blob/master/L-Swift/Components/CustomSearchbar.swift"> BubbleTransition </a>
 
 https://github.com/xqsadness/L-SwiftUI/assets/81242756/997d79a5-951b-48b2-bc6f-7679f28688a9
+
+<a href="https://github.com/xqsadness/SwiftUI-Animation/blob/master/L-Swift/Components/CustomSegmentAnimated/CustomSegmentAnimated.swift"> Custom Segment Animated </a>
+
+https://github.com/xqsadness/SwiftUI-Animation/assets/81242756/d1656ac0-1c27-4d44-a07f-f85119ccba48
+
+<a href="https://github.com/xqsadness/SwiftUI-Animation/blob/master/L-Swift/Components/TimeLineAnimation.swift"> Time Line Animation </a>
+
+https://github.com/xqsadness/SwiftUI-Animation/assets/81242756/7769c8d0-c826-466d-b5a0-0825467c7bcf
+
