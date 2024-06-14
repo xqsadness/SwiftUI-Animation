@@ -72,6 +72,10 @@ struct ContentView: View {
                     
                     navigationScreen("Segment Animated") {
                         SegmentAnimatedView()
+                    } 
+                    
+                    navigationScreen("Time Line Animation") {
+                        TimeLineAnimationView()
                     }
                 }
                 .padding()
