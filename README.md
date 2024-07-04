@@ -1,3 +1,5 @@
+
+https://github.com/xqsadness/SwiftUI-Animation/assets/81242756/c78c229f-5699-4bb7-9808-6f0e3dd2e3b9
 ### L-SwiftUI
 
  
@@ -48,4 +50,8 @@ https://github.com/xqsadness/SwiftUI-Animation/assets/81242756/d1656ac0-1c27-4d4
 <a href="https://github.com/xqsadness/SwiftUI-Animation/blob/master/L-Swift/Components/TimeLineAnimation.swift"> Time Line Animation </a>
 
 https://github.com/xqsadness/SwiftUI-Animation/assets/81242756/7769c8d0-c826-466d-b5a0-0825467c7bcf
+
+<a href="https://github.com/xqsadness/SwiftUI-Animation/blob/master/L-Swift/Components/TabBarLightAnimation/TabBarLightAnimationView.swift"> Tabbar light Animation </a>
+
+https://github.com/xqsadness/SwiftUI-Animation/assets/81242756/32c2df30-a65b-4506-a986-c8713d10bbc2
 
