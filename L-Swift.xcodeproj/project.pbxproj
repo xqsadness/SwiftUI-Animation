@@ -29,6 +29,7 @@
 		DD528DF92AD653EC0030DCB9 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD528DF82AD653EC0030DCB9 /* Views.swift */; };
 		DD528DFB2AD654D80030DCB9 /* CustomIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD528DFA2AD654D80030DCB9 /* CustomIndicatorView.swift */; };
 		DD528DFD2AD659B30030DCB9 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD528DFC2AD659B30030DCB9 /* CustomTextField.swift */; };
+		DD766DBE2C1D3BD300197C85 /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD766DBD2C1D3BD300197C85 /* SideBarView.swift */; };
 		DD7FAC3C2ADA24A30099C44F /* CustomSearchbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FAC3B2ADA24A30099C44F /* CustomSearchbar.swift */; };
 		DD871AE02B01D5E200F26360 /* BubbleTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD871ADF2B01D5E200F26360 /* BubbleTransition.swift */; };
 		DD92C76C2AD936B700A7A48B /* PasswordStrength.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD92C76B2AD936B700A7A48B /* PasswordStrength.swift */; };
@@ -44,6 +45,9 @@
 		DDBB89AA2ACA796B00171024 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBB89A92ACA796B00171024 /* SideMenuView.swift */; };
 		DDBB89AC2ACAA0A000171024 /* TabViewV.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBB89AB2ACAA0A000171024 /* TabViewV.swift */; };
 		DDCD1F082C185FFD00BF9786 /* CustomSegmentAnimated.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD1F072C185FFD00BF9786 /* CustomSegmentAnimated.swift */; };
+		DDDD11F52C207506004503AE /* TabBarLightAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD11F42C207506004503AE /* TabBarLightAnimationView.swift */; };
+		DDDD11F72C207563004503AE /* DataTabbarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD11F62C207563004503AE /* DataTabbarModel.swift */; };
+		DDDD11F92C2079BF004503AE /* LightShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD11F82C2079BF004503AE /* LightShape.swift */; };
 		DDFCD6AB2ACBA3A0003FAA5D /* TabbarAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFCD6AA2ACBA3A0003FAA5D /* TabbarAnimation.swift */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +74,7 @@
 		DD528DF82AD653EC0030DCB9 /* Views.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
 		DD528DFA2AD654D80030DCB9 /* CustomIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIndicatorView.swift; sourceTree = "<group>"; };
 		DD528DFC2AD659B30030DCB9 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		DD766DBD2C1D3BD300197C85 /* SideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarView.swift; sourceTree = "<group>"; };
 		DD7FAC3B2ADA24A30099C44F /* CustomSearchbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchbar.swift; sourceTree = "<group>"; };
 		DD871ADF2B01D5E200F26360 /* BubbleTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleTransition.swift; sourceTree = "<group>"; };
 		DD92C76B2AD936B700A7A48B /* PasswordStrength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordStrength.swift; sourceTree = "<group>"; };
@@ -86,6 +91,9 @@
 		DDBB89A92ACA796B00171024 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
 		DDBB89AB2ACAA0A000171024 /* TabViewV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewV.swift; sourceTree = "<group>"; };
 		DDCD1F072C185FFD00BF9786 /* CustomSegmentAnimated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegmentAnimated.swift; sourceTree = "<group>"; };
+		DDDD11F42C207506004503AE /* TabBarLightAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarLightAnimationView.swift; sourceTree = "<group>"; };
+		DDDD11F62C207563004503AE /* DataTabbarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTabbarModel.swift; sourceTree = "<group>"; };
+		DDDD11F82C2079BF004503AE /* LightShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightShape.swift; sourceTree = "<group>"; };
 		DDFCD6AA2ACBA3A0003FAA5D /* TabbarAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -230,21 +238,23 @@
 		DDBB89A52ACA6E3C00171024 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				DDCD1F062C185FFD00BF9786 /* CustomSegmentAnimated */,
-				DD871ADE2B01D5C200F26360 /* BubbleTransition */,
-				DD3A38D62AD8EA2600BA4100 /* LazyCompositional */,
-				DD5079F62AD7E33E00D6535C /* ParticleEffects */,
-				DD5079ED2AD7832100D6535C /* Tabbar2 */,
-				DD528DF52AD651BE0030DCB9 /* Onboarding2 */,
-				DD5032632ACFBD460014585A /* Onboarding */,
-				DDBB89A82ACA794F00171024 /* SideMenu */,
+				DD766DBD2C1D3BD300197C85 /* SideBarView.swift */,
 				DDBB89A62ACA6E5B00171024 /* AnimationsOnCards.swift */,
-				DDFCD6AA2ACBA3A0003FAA5D /* TabbarAnimation.swift */,
-				DD5079F42AD7922300D6535C /* MovableGrids.swift */,
 				DD3A38CF2AD8D5F600BA4100 /* ArcMenuButton.swift */,
-				DD92C76B2AD936B700A7A48B /* PasswordStrength.swift */,
 				DD7FAC3B2ADA24A30099C44F /* CustomSearchbar.swift */,
+				DD5079F42AD7922300D6535C /* MovableGrids.swift */,
+				DD92C76B2AD936B700A7A48B /* PasswordStrength.swift */,
+				DDFCD6AA2ACBA3A0003FAA5D /* TabbarAnimation.swift */,
 				DD2B0F542C1BF686005C6BAA /* TimeLineAnimation.swift */,
+				DDDD11F32C2074EE004503AE /* TabBarLightAnimation */,
+				DD871ADE2B01D5C200F26360 /* BubbleTransition */,
+				DDCD1F062C185FFD00BF9786 /* CustomSegmentAnimated */,
+				DD3A38D62AD8EA2600BA4100 /* LazyCompositional */,
+				DD5032632ACFBD460014585A /* Onboarding */,
+				DD528DF52AD651BE0030DCB9 /* Onboarding2 */,
+				DD5079F62AD7E33E00D6535C /* ParticleEffects */,
+				DDBB89A82ACA794F00171024 /* SideMenu */,
+				DD5079ED2AD7832100D6535C /* Tabbar2 */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -264,6 +274,16 @@
 				DDCD1F072C185FFD00BF9786 /* CustomSegmentAnimated.swift */,
 			);
 			path = CustomSegmentAnimated;
+			sourceTree = "<group>";
+		};
+		DDDD11F32C2074EE004503AE /* TabBarLightAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				DDDD11F42C207506004503AE /* TabBarLightAnimationView.swift */,
+				DDDD11F62C207563004503AE /* DataTabbarModel.swift */,
+				DDDD11F82C2079BF004503AE /* LightShape.swift */,
+			);
+			path = TabBarLightAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,6 +369,7 @@
 				DDFCD6AB2ACBA3A0003FAA5D /* TabbarAnimation.swift in Sources */,
 				DDBB899A2ACA6E1B00171024 /* ContentView.swift in Sources */,
 				DD871AE02B01D5E200F26360 /* BubbleTransition.swift in Sources */,
+				DDDD11F92C2079BF004503AE /* LightShape.swift in Sources */,
 				DD5079EF2AD7835900D6535C /* HomeTabbar2View.swift in Sources */,
 				DDB355592AD39EEA00E2B4DB /* OnboardingView.swift in Sources */,
 				DDBB89AC2ACAA0A000171024 /* TabViewV.swift in Sources */,
@@ -363,6 +384,7 @@
 				DDB3555B2AD39FFE00E2B4DB /* SecondView.swift in Sources */,
 				DD528DF92AD653EC0030DCB9 /* Views.swift in Sources */,
 				DDBB89A72ACA6E5B00171024 /* AnimationsOnCards.swift in Sources */,
+				DD766DBE2C1D3BD300197C85 /* SideBarView.swift in Sources */,
 				DD5079F32AD78A5500D6535C /* TabPosition.swift in Sources */,
 				DD92C76C2AD936B700A7A48B /* PasswordStrength.swift in Sources */,
 				DD3A38DC2AD8F56000BA4100 /* ImageModel.swift in Sources */,
@@ -370,11 +392,13 @@
 				DD5079F82AD7E38C00D6535C /* ParticleEffectsHome.swift in Sources */,
 				DD5032682ACFC1DE0014585A /* Color.swift in Sources */,
 				DD5079F52AD7922300D6535C /* MovableGrids.swift in Sources */,
+				DDDD11F72C207563004503AE /* DataTabbarModel.swift in Sources */,
 				DDBB89AA2ACA796B00171024 /* SideMenuView.swift in Sources */,
 				DDB355572AD38FD800E2B4DB /* TypingEffectView.swift in Sources */,
 				DDCD1F082C185FFD00BF9786 /* CustomSegmentAnimated.swift in Sources */,
 				DD5079EC2AD781F300D6535C /* Tab.swift in Sources */,
 				DD3A38D02AD8D5F600BA4100 /* ArcMenuButton.swift in Sources */,
+				DDDD11F52C207506004503AE /* TabBarLightAnimationView.swift in Sources */,
 				DDB3555D2AD3A13100E2B4DB /* HomeOnboardingView.swift in Sources */,
 				DDBB89982ACA6E1B00171024 /* L_SwiftApp.swift in Sources */,
 			);
@@ -505,7 +529,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"L-Swift/Preview Content\"";
-				DEVELOPMENT_TEAM = PD5C78B8LS;
+				DEVELOPMENT_TEAM = 4BB9BFSL47;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "L-Swift/Info.plist";
@@ -534,7 +558,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"L-Swift/Preview Content\"";
-				DEVELOPMENT_TEAM = PD5C78B8LS;
+				DEVELOPMENT_TEAM = 4BB9BFSL47;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "L-Swift/Info.plist";

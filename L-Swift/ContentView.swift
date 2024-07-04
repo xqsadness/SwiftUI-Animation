@@ -77,6 +77,10 @@ struct ContentView: View {
                     navigationScreen("Time Line Animation") {
                         TimeLineAnimationView()
                     }
+                    
+                    navigationScreen("TabBar Light Animation") {
+                        TabBarLightAnimationView(flashing: true)
+                    }
                 }
                 .padding()
             }

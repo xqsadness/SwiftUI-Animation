@@ -115,6 +115,8 @@ extension Color{
     public static var text5: LinearGradient = LinearGradient(colors: [Color(hex: "0067E0"), Color(hex: "00336F")], startPoint: .top, endPoint: .bottom)
     public static var background: Color = Color("Background")
     public static var background2: Color = Color("Background2")
+    public static var bgGray: Color = Color("BgGray")
+    public static var bgrYellow: Color = Color("bgrYellow")
     static var random: Color {
         return Color(
             red: .random(in: 0...1),
