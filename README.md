@@ -1,5 +1,4 @@
 
-https://github.com/xqsadness/SwiftUI-Animation/assets/81242756/c78c229f-5699-4bb7-9808-6f0e3dd2e3b9
 ### L-SwiftUI
 
  
